@@ -1,0 +1,37 @@
+<html>
+<head>
+  <title>
+  </title>
+</head>
+<body>
+  <form method="post" name="resume_form" weith=60%>
+    <fieldset>
+      <legend>Step One : Personal Information</legend>
+      Name : <input type="text" name="name">
+      Last Name : <input type="text" name="lastname"><br>
+      Username : <input type="text" name="username"><br>
+      Password : <input type="password" name="pw"><br>
+      Gender : <input type="radio" name="gender" value="M"> Male
+      <input type="radio" name="gender" value="F"> Female<br>
+
+      Province : <select name="province">
+      <option value="CM">Chiang Mai</option>
+      <option value="LPU">Lamphun</option>
+      <option value="LPA">Lampang</option>
+      </select><br>
+
+      <input type="checkbox" name="bike" value="1"> Bike<br>
+      <input type="checkbox" name="car" value="1"> Car<br>
+      <input type="checkbox" name="motorcycle" value="1"> Motorcycle<br>
+      Picture : <input type="file" name="myfile">
+      <input type="submit" name="form_submit" value=Submit>
+      <input type="reset" name="reset_form" value=Reset>
+    </fieldset>
+
+    <fieldset>
+      <legend>Step Two : General Information</legend>
+      Suggest : <textarea cols="210" rows="5" name="suggestion"></textarea>
+    </fieldset>
+  </form>
+</body>
+</html>
